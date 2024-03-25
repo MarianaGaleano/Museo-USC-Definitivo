@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PuntoDeMira : MonoBehaviour
+public class ReproducirAudio : MonoBehaviour
 {
     public Camera cam;
     public AudioSource audioSource;
