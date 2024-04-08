@@ -5250,7 +5250,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -6365,6 +6365,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &204352048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8641661679084691547}
+    m_Modifications:
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1145
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.99103665
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8710999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.319
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.002334589
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0012837829
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999915
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0031574788
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.361
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180.268
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956831858537324536, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956831858537324536, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ae66a9449d564d4282f5a7a7082de00, type: 2}
+    - target: {fileID: 6680815283536302458, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_Name
+      value: Wall (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+--- !u!4 &204352049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1026205337483527585, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+  m_PrefabInstance: {fileID: 204352048}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &207422060
 GameObject:
   m_ObjectHideFlags: 0
@@ -7238,7 +7324,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -12179,7 +12265,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -21626,7 +21712,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -29050,7 +29136,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -35745,7 +35831,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -49583,6 +49669,10 @@ PrefabInstance:
       value: 0.148
       objectReference: {fileID: 0}
     - target: {fileID: 5956831858537324536, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956831858537324536, guid: f8f24e81793efca47bce5cf6dc2728c3, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 7ae66a9449d564d4282f5a7a7082de00, type: 2}
@@ -55543,7 +55633,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -56860,7 +56950,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -59353,7 +59443,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -62020,7 +62110,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -65829,7 +65919,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -65872,7 +65962,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -65915,7 +66005,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -65958,7 +66048,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -69274,6 +69364,7 @@ Transform:
   - {fileID: 4901598820473471488}
   - {fileID: 9104643124088449050}
   - {fileID: 1652670264}
+  - {fileID: 204352049}
   - {fileID: 9104643122780032965}
   m_Father: {fileID: 1109201729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
